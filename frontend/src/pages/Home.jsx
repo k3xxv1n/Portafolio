@@ -9,7 +9,7 @@ const Home = () => {
         <div className="">
             <Navbar />
             <div className="relative top-35">
-                <h1 className="text-center text-4xl">I'm Software Developer</h1>
+                <h1 className="text-center text-4xl">Hi, I'm k3xxv1n<br/>Software developer</h1>
                 <p className="text-center">My name is k3xxv1n (Kevin), this is my portafolio web</p>
                 <div className="flex justify-center gap-4 relative top-5">
                     <Button component={Link} variant="outlined" sx={
