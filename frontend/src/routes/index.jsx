@@ -7,7 +7,7 @@ import Contact from "../pages/Contact";
 
 export default function RoutesApp(){
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="/">
             <Routes>
                 <Route path="/" element={<Home/>} />
                 <Route path ="/about" element={<About/>} />
