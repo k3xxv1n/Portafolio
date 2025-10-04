@@ -22,7 +22,7 @@ const Home = () => {
                     <IconButton  href="https://www.instagram.com/k3nvhz.k3" target="_blank">
                         <img src={IgIcon} alt="instagram" className="w-10 h-10 mx-auto mt-4" />
                     </IconButton>
-                    <IconButton href="https://discord.com/users/123456789012345678" target="_blank">
+                    <IconButton href="https://discord.com/users/1013970911059255387" target="_blank">
                         <img src={DcIcon} alt="Discord" className="w-11 h-11 mx-auto mt-4" />
                     </IconButton>
                 </Box>
