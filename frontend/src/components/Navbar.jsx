@@ -11,10 +11,10 @@ const Navbar = () => {
        <Box sx={{ flexGrow: 1}}>
         <AppBar position="static">
             <Toolbar className="navbar">
-                <Link component={RouterLink} to="/" color="inherit" underline="none" sx={{ mr: 2, color: 'black'}} >Home</Link>
-                <Link component={RouterLink} to="/About" color="inherit" underline="none" sx={{ mr: 2, color: 'black', borderBottom: location.pathname == '/About' ? "2px solid black" : "none", pb: 0} }>About me</Link>
-                <Link component={RouterLink} to="/Projects" color="inherit" underline="none" sx={{ mr: 2, color: 'black', borderBottom: location.pathname == '/Projects' ? "2px solid black" : "none", pb: 0}}>Projects</Link>
-                <Link component={RouterLink} to="/Contact" color="inherit" underline="none" sx={{color: 'black', borderBottom: location.pathname == '/Contact' ? "2px solid black" : "none", pb: 0}}>Contact</Link>
+                <Link component={RouterLink} to="/" color="inherit" underline="none" sx={{ mr: 2, transition: "all 0.3s ease-in-out", color: '#D1D5DB', '&:hover': {color: '#DC2626', transform: "scale(1.20)"}}} >Home</Link>
+                <Link component={RouterLink} to="/About" color="inherit" underline="none" sx={{ mr: 2,transition: "all 0.3s ease-in-out", color: '#D1D5DB', '&:hover': {color: '#DC2626', transform: "scale(1.20)"}, borderBottom: location.pathname == '/About' ? "2px solid black" : "none", pb: 0} }>About me</Link>
+                <Link component={RouterLink} to="/Projects" color="inherit" underline="none" sx={{ mr: 2, transition: "all 0.3s ease-in-out", color: '#D1D5DB', '&:hover': {color: '#DC2626', transform: "scale(1.20)"}, borderBottom: location.pathname == '/Projects' ? "2px solid black" : "none", pb: 0}}>Projects</Link>
+                <Link component={RouterLink} to="/Contact" color="inherit" underline="none" sx={{transition: "all 0.3s ease-in-out", color: '#D1D5DB', '&:hover': {color: '#DC2626', transform: "scale(1.20)"}, borderBottom: location.pathname == '/Contact' ? "2px solid black" : "none", pb: 0}}>Contact</Link>
 
             </Toolbar>
         </AppBar>

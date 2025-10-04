@@ -18,17 +18,27 @@ const Home = () => {
                     </IconButton>
                 </Box>              
                 <div className="flex justify-center gap-4 relative top-5">
-                    <Button component={Link} variant="outlined" sx={
+                    <Button component={Link} variant="contained" sx={
                         {
-                            borderColor: 'black',
-                            color: 'black'
+                            backgroundColor: '#DC2626',
+                            transition: "all 0.3s ease-in-out",
+                            '&:hover': {
+                                backgroundColor: '#7F1D1D',
+                                transform: "scale(1.10)"
+                            },
+                            color: '#D1D5DB'
                         }
                     } to='/Projects'>Projects</Button>
 
 
-                    <Button component={Link} variant="outlined" sx={{
-                        borderColor: 'black',
-                        color: 'black'
+                    <Button component={Link} variant="contained" sx={{
+                        backgroundColor: '#DC2626',
+                        transition: "all 0.3s ease-in-out",
+                        '&:hover': {
+                                backgroundColor: '#7F1D1D',
+                                transform: "scale(1.10)"
+                        },
+                        color: '#D1D5DB'
                     }} to='/About'>About me</Button>
                 </div>
             </div>

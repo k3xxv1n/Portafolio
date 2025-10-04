@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #570000;
+  background-color: #374151;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,9 +22,5 @@
 
 
 .navbar{
-  background-color: #7b0000;
-}
-
-h1, p{
-  color: black;
+  background-color: #1F2937;
 }
